@@ -828,6 +828,34 @@ pipeline {
         }
     }
 }		
+
+
+steps i need to flow
+
+1. have to create 2 vm
+	one jenkins -install java, jenkins
+	do the jenkins setup
+	enable the port 8080
+	create one user devops
+	login to that user
+	create the sshkey
+	two slave - install java, maven, docker
+	create one user
+	login to that user
+	create folde mkdir and ans authorized key
+	add the user to docker group
+
+	go to genkins and manage jenkind
+
+	create credentials for ssh and docker hub register
+
+	create a node
+	install the required plugins
+	create the pipeline project and write that script	
+	and buildnow
+
+note:git repo should have the dockerfile
+
 		
 
 Next :
